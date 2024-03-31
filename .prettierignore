@@ -1,0 +1,42 @@
+# Ignore artifacts and build directories
+node_modules
+dist
+build
+out
+.tmp
+logs
+
+# Ignore configuration files
+.prettierignore
+.prettierrc
+.eslintrc
+babel.config.js
+jest.config.js
+
+# Ignore version control files
+.git
+.gitignore
+.hgignore
+.hg
+.svn
+
+# Ignore binary files
+*.png
+*.jpg
+*.gif
+*.ico
+*.woff
+*.woff2
+*.eot
+*.ttf
+*.otf
+
+# Ignore compressed files
+*.zip
+*.rar
+*.gz
+*.tar.gz
+*.tgz
+*.bzip
+*.bzip2
+*.7z
